@@ -4,8 +4,8 @@
 
 yum -y update
 
-echo Instalando keepassx ...
-if [ ! -f /usr/bin/keepassx ]; then
+echo Instalando keepassxs ...
+if [ ! -f /usr/bin/keepassx2 ]; then
 	yum -y install keepassx2
 fi
 

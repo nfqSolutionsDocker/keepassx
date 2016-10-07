@@ -21,5 +21,5 @@ app:
 
 For execute eclipse:
 ```
-ssh root@<MACHINE_IP> -p<PORT_B> keepassx
+ssh root@<MACHINE_IP> -p<PORT_B> keepassx2
 ```
