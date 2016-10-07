@@ -5,8 +5,9 @@
 yum -y update
 
 echo Instalando keepassxs ...
-if [ ! -f /usr/bin/keepassx2 ]; then
+if [ ! -f /usr/bin/keepassx ]; then
 	yum -y install keepassx2
+	ln -sf /usr/bin/keepassx2 /usr/bin/keepassx
 fi
 
 echo Instalando servidor ssh ...
